@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/imguser"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:layout_constraintEnd_toStartOf="@+id/tvName"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imguser"
+            app:layout_constraintEnd_toStartOf="@+id/imgcall"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imguser"
+            app:layout_constraintTop_toTopOf="@+id/imguser" />
+
+        <ImageView
+            android:id="@+id/imgcall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/img_3"
+            app:layout_constraintBottom_toBottomOf="@+id/imguser"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tvName"
+            app:layout_constraintTop_toTopOf="@+id/imguser" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

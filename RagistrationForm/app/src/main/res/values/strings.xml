@@ -1,0 +1,35 @@
+<resources>
+    <!--    edit text-->
+    <string name="app_name">MY FORM</string>
+    <string name="first_name">Enter First Name</string>
+    <string name="middle_name">Enter Middle Name</string>
+    <string name="last_name">Enter Last Name</string>
+    <string name="mobile_number">Enter Contact Number</string>
+    <string name="address">Address</string>
+    <string name="mail_id">Enter Mail-Id</string>
+    <string name="aadharno">Enter Aadhar No.</string>
+    <string name="panno">Enter Pan No.</string>
+    <string name="submit">Submit</string>
+    <string name="Dob">Enter DOB</string>
+    <!--text view-->
+    <string name="f_name">First Name:<font color='#FF0000'>*</font></string>
+    <string name="l_name">Last Name:<font color='#FF0000'>*</font></string>
+    <string name="m_name">Middle Name:</string>
+    <string name="contact">Contact Number:<font color='#FF0000'>*</font></string>
+    <string name="add">Address:<font color='#FF0000'>*</font></string>
+    <string name="mail">Mail-Id:<font color='#FF0000'>*</font></string>
+    <string name="aadhar_no">Aadhar No.(Last 4 digits Only)<font color='#FF0000'>*</font></string>
+    <string name="pan_no">Pan No.<font color='#FF0000'>*</font></string>
+    <string name="gen">Gender:<font color='#FF0000'>*</font></string>
+    <string name="courses">Select Courses:<font color='#FF0000'>*</font></string>
+    <string name="dob">Date of Birth:<font color='#FF0000'>*</font></string>
+    <string name="title_activity_ragister">RagisterActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
